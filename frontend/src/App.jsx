@@ -1,7 +1,11 @@
+import ImageUploader from "./components/ImageUploader";
+
 function App() {
   return (
     <div>
       <h1>ImageDecoder</h1>
+
+      <ImageUploader />
     </div>
   );
 }
